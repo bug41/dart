@@ -1,5 +1,5 @@
 class Player {
-  final String name;
+  String name;
   int xp;
   String team;
 
@@ -11,7 +11,7 @@ class Player {
 }
 
 void main() {
-  var nico = Player(name: 'nico', xp: 1200, team: 'red')
+  var nico = Player(name: 'nico', xp: 1200, team: 'red');
   var potato = nico
     ..name = 'las'
     ..xp = 120000
